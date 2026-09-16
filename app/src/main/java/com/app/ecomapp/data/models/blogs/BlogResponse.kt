@@ -7,7 +7,7 @@ import android.os.Parcelable
 
 @Parcelize
 data class BlogResponse(
-    @SerializedName("data")
+    @SerializedName("item")
     val `data`: List<BlogData>,
     @SerializedName("message")
     val message: String,
